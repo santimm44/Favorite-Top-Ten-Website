@@ -26,7 +26,7 @@
 
 Make sure you do all of the B Grade in order to qualify for the A Grade.
 
-    - Provide Review Videos of all items. 
+    - Provide Review Videos of all items.
     - Responsiveness for desktop and tablet
     - All items in B Grade
 
