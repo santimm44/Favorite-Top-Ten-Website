@@ -12,30 +12,38 @@
     <link rel="stylesheet" href="./style/styles.css">
   </head>
 
-  <body>
+  <body style="background-color: #A4B7C3;">
 
     <header>
-      <div class="container">
-        <div class="row">
+      <div class="container-fluid">
+        <div class="row bg-secondary pt-3 pb-3">
 
           <!--Website Name-->
-          <div class="col-8">
+          <div class="col-6">
             <h3>Top 10 Website</h3>
           </div>
 
           <!--Buttons to articles-->
-          <div class="col-2">Top 10 Splatoon 3 Weapon Kits</div>
-          <div class="col-2">Top 10 website portfolios</div>
+          <div class="col-2 bg-white rounded ">
+            <p class="text-center pt-3">
+              <a href="./pages/AlexanderTopTen.html">Top 10 Splatoon 3 Weapon Kits</a>
+            </p>
+          </div>
+          <div class="col-2 bg-white ms-5 rounded d-flex justify-content-evenly">
+            <p class="text-center pt-3">
+              <a href="./pages/SantiagoTopTen.html">Top 10 website portfolios</a>
+            </p>
+          </div>
         </div>
       </div>
     </header>
 
     <!--Hero Section-->
-    <section>
-      <div class="container">
+    <section class="mb-4 mt-4">
+      <div class="container-fluid bg-secondary ">
         <!--Title-->
-        <div class="row">
-          <div class="col">
+        <div class="row ">
+          <div class="col text-center">
             <h2>
               Let’s talk about our TOP TEN!
             </h2>
@@ -44,7 +52,7 @@
 
         <!--Text Body-->
         <div class="row">
-          <div class="col">
+          <div class="col text-center">
             <p>
               Here we will lay out our favorite top ten. 
               We are Alexander Soria and Santiago Jesus Montanez. 
@@ -57,24 +65,24 @@
 
     <!--Cards-->
     <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-6">
-            <div class="card" style="width: 18rem;">
-              <img src="./assets/resources/" class="card-img-top" alt="...">
+      <div class="container-fluid ">
+        <div class="row d-flex justify-content-evenly">
+          <div class="col-3">
+            <div class="shadow card" style="width: 18rem;">
+              <img src="./assets/resources/SplatoonBG.png" class="card-img-top" alt="Card Image of Splatoon Background">
               <div class="card-body">
                 <h5 class="card-title">Top 10 Splatoon 3 Weapon Kits</h5>
                 <h6 class="card-subtitle mb-2 text-body-secondary">By Alexander Soria</h6>
                 <p class="card-text">
                   Splatoon 3 has a whole slew of weapons to use, from bows, to paint rollers, and more! 
                   But what would I personally recommend for you to try?</p>
-                <a href="#" class="btn btn-primary">Go to</a>
+                <a href="./pages/AlexanderTopTen.html" class="btn btn-primary">Go to</a>
               </div>
             </div>
           </div>
-          <div class="col-6">
-            <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
+          <div class="col-3">
+            <div class="shadow card" style="width: 18rem;">
+              <img src="./assets/resources/Screenshot_20241023_141831.png" class="card-img-top" alt="Card image of Web Portfolio">
               <div class="card-body">
                 <h5 class="card-title">Top 10 Portfolio Websites</h5>
                 <h6 class="card-subtitle mb-2 text-body-secondary">By Santiago Jesus Montanez</h6>
@@ -82,7 +90,7 @@
                   The top ten portfolio websites are of what I, Santiago, found to be the most interesting! 
                   Join me in seeing some amazing work from some of the most creative people on the web!
                 </p>
-                <a href="#" class="btn btn-primary">Go to</a>
+                <a href="./pages/SantiagoTopTen.html" class="btn btn-primary">Go to</a>
               </div>
             </div>
           </div>
