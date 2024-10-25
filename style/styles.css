@@ -10,7 +10,10 @@
 {
     font-weight: lighter;
 }
-
+.pAlexText
+{
+    font-size: 20px;
+}
 #bg-index
 {
     background-color: #A4B7C3;
