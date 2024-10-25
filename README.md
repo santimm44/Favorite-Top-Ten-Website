@@ -30,6 +30,9 @@ Make sure you do all of the B Grade in order to qualify for the A Grade.
     - Responsiveness for desktop and tablet
     - All items in B Grade
 
+## Figma
+https://www.figma.com/design/6Wy1jckoDUH90YO2Nr3Qsn/Favorite-Top-Ten-Site?node-id=11-78&t=DOCYg1QbOx4U2p4j-1
+
 ## Peer Reviewed by
 
 ### Comments
