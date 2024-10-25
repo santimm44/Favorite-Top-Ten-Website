@@ -6,7 +6,10 @@
     margin-right: 1px;
     padding: 2px;
 }
-
+.titleDescText
+{
+    font-weight: lighter;
+}
 
 #bg-index
 {
